@@ -23,10 +23,10 @@ Canvas is a fully open source package to extend your existing [Laravel](https://
 
 ## Installation
 
-You may use composer to install Canvas into your Laravel project:
+You may use composer to install Canvas into your Laravel project: (This is fork from austintoddj/canvas to support Laravel 12, if you want to use the original package, use this command to install: `composer require austintoddj/canvas`)
 
 ```bash
-composer require austintoddj/canvas
+composer require coliving/canvas
 ```
 
 Publish the assets and primary configuration file using the `canvas:install` Artisan command:
